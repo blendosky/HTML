@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Web Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KTCLT66PXK"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KTCLT66PXK');
+        </script>
+    </head>
+    <body>
+        <!-- Navigation Bar-->
+        <div id="navbar"></div>
+        <script>
+            $(function(){
+                $("#navbar").load("navbar.html")
+            });
+        </script>
+        
+        <!-- about page-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2> About our WebPage</h2>
+                    <p> This is a beatiful course, where there are incredible students that the backend course</p>
+                </div>
+                <div class="col-sm-4">
+                    <p>Esta el la otra parte de la pantalla</p>
+                </div>
+                <div class="col-sm-4">
+                    <p>Esta el la otra parte de la pantalla</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
